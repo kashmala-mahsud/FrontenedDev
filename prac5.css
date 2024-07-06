@@ -1,0 +1,10 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-image: url('pic.jpeg');
+    background-position: cover;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    top: 0;
+}
