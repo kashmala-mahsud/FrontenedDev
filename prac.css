@@ -1,0 +1,27 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+  
+}
+#logo {
+    font-size: 25px;
+    color: #f08804;
+    margin: 7rem 8% 0 0;
+}
+a{
+    color: white;
+    margin-right: 10%;
+}
+#btn {
+    background-color: #f08804;
+    color: white;
+    height: 30px;
+    width: 80px;
+
+}
