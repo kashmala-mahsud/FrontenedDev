@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0f1111;
+    height: 60px;
+}
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+a {
+    color: white;
+}
+#btn {
+    color: white;
+    background-color: #f08804;
+    height: 30px;
+    width: 80px;
+}
+.box1 {
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
