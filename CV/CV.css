@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: rgb(80, 140, 196);
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top-section p {
+    font-weight: 800;
+    margin-top: 30px;
+    color: rgb(80, 140, 196);
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container .first-container {
+    margin-right: 5% ;
+    border-right: 1px solid rgb(80, 140, 196);
+}
+
+.first-container .details {
+    margin-bottom: 30px;
+}
+
+.details h2 {
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: rgb(58, 56, 56);
+    font-size: 30px;
+}
+.details p{
+    margin-right: 40px;
+    color: rgb(80, 140, 196);
+}
+
+.details p span {
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(58, 56, 56);
+}
+
+.skills ul>li {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(80, 140, 196);
+}
+
+.sec-container {
+    margin-top: 90px;
+
+}
+
+.education {
+    margin-bottom: 30px;
+   
+}
+
+.education h2 {
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(58, 56, 56);
+}
+
+.education ul>li {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(80, 140, 196);
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(58, 56, 56);
+}
+
+.projects ul>li {
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(80, 140, 196);
+    margin-bottom: 20px;
+}
+.projects p {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(80, 140, 196);
+    margin-bottom: 20px;
+}
