@@ -3,11 +3,16 @@
     padding: 0;
 }
 
+body {
+    background-color: rgb(4, 58, 101);
+}
+
 h1 {
+    padding-top: 20px;
     text-align: center;
     margin-top: 20px;
     font-size: 50px;
-    color: rgb(80, 140, 196);
+    color: rgb(146, 191, 233);
 }
 
 .top-section {
@@ -19,18 +24,20 @@ h1 {
 .top-section p {
     font-weight: 800;
     margin-top: 30px;
-    color: rgb(80, 140, 196);
+    color: rgb(146, 191, 233);
+    margin-bottom: 5%;
 }
 
 .main-container {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
 }
 
 .main-container .first-container {
-    margin-right: 5% ;
-    border-right: 1px solid rgb(80, 140, 196);
+    margin-right: 5%;
+    padding: 5%;
+    background-color: rgb(146, 191, 233);
 }
 
 .first-container .details {
@@ -43,7 +50,8 @@ h1 {
     color: rgb(58, 56, 56);
     font-size: 30px;
 }
-.details p{
+
+.details p {
     margin-right: 40px;
     color: rgb(80, 140, 196);
 }
@@ -68,44 +76,130 @@ h1 {
 }
 
 .sec-container {
-    margin-top: 90px;
+    margin-top: 50px;
 
 }
 
 .education {
     margin-bottom: 30px;
-   
+
 }
 
 .education h2 {
     margin-bottom: 20px;
     font-weight: 800;
     font-size: 30px;
-    color: rgb(58, 56, 56);
+    color: black;
 }
 
 .education ul>li {
     font-size: 25px;
     font-weight: 500;
-    color: rgb(80, 140, 196);
+    color: rgb(146, 191, 233);
 }
 
 .projects h2 {
     margin-bottom: 20px;
     font-weight: 800;
     font-size: 30px;
-    color: rgb(58, 56, 56);
+    color: black;
 }
 
 .projects ul>li {
     font-size: 30px;
     font-weight: 800;
-    color: rgb(80, 140, 196);
+    color: rgb(146, 191, 233);
     margin-bottom: 20px;
 }
+
 .projects p {
     font-size: 20px;
     font-weight: 500;
-    color: rgb(80, 140, 196);
+    color: rgb(146, 191, 233);
     margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 25px;
+    }
+
+    .first-container {
+        padding-left: 5%;
+        padding-top: 20px;
+    }
+
+    .sec-container {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        font-size: 20px;
+    }
+
+    .first-container {
+        padding-left: 15%;
+    }
+
+    .sec-container {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 786px) {
+
+
+    .main-container {
+        display: block;
+        margin-top: 10%;
+    }
+
+    .main-container .first-container {
+        border-right: none;
+        background-color: rgb(4, 58, 101);
+    }
+
+    .details h2 {
+        font-size: 40px;
+        color: black;
+    }
+
+    .details p {
+        color: rgb(146, 191, 233);
+    }
+
+    .details p span {
+        font-size: 25px;
+
+    }
+
+    .skills h2 {
+        font-size: 40px;
+        color: black;
+    }
+
+    .skills ul li {
+        font-size: 25px;
+        color: rgb(146, 191, 233);
+    }
+
+    .sec-container {
+        margin: 50px 0 0 35px;
+
+    }
+
+    .education h2 {
+        font-size: 40px;
+    }
+
+    .education ul li {
+        font-size: 25px;
+    }
+
+    .projects h2 {
+        font-size: 40px;
+    }
 }
