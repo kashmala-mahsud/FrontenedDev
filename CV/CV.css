@@ -8,35 +8,42 @@ body {
 }
 
 h1 {
-    padding-top: 20px;
-    text-align: center;
+
     margin-top: 20px;
-    font-size: 50px;
-    color: rgb(146, 191, 233);
+    font-size: 20px;
+    color: rgb(80, 140, 196);
 }
 
-.top-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.top-section img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
 }
-
 .top-section p {
     font-weight: 800;
     margin-top: 30px;
-    color: rgb(146, 191, 233);
+    color: rgb(80, 140, 196);
     margin-bottom: 5%;
+    font-size: 20px;
 }
+.top-section span {
+    font-weight: 800;
+    margin-top: 30px;
+    color: rgb(58, 56, 56);
+    font-size: 25px;
+}
+
 
 .main-container {
     display: flex;
-    align-items: stretch;
+    align-items: center;
     justify-content: center;
 }
 
 .main-container .first-container {
     margin-right: 5%;
-    padding: 5%;
+    padding: 10px 5% 5% 5.5%;
     background-color: rgb(146, 191, 233);
 }
 
@@ -76,19 +83,19 @@ h1 {
 }
 
 .sec-container {
-    margin-top: 50px;
+    margin-top: 10%;
 
 }
 
 .education {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
 }
 
 .education h2 {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 35px;
     color: black;
 }
 
@@ -99,9 +106,9 @@ h1 {
 }
 
 .projects h2 {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 35px;
     color: black;
 }
 
@@ -130,7 +137,7 @@ h1 {
     }
 
     .sec-container {
-        margin-top: 20px;
+        margin-top: 10%;
     }
 }
 
@@ -144,7 +151,7 @@ h1 {
     }
 
     .sec-container {
-        margin-top: 20px;
+        margin-top: 15%;
         margin-left: 40px;
     }
 }
@@ -154,7 +161,20 @@ h1 {
 
     .main-container {
         display: block;
-        margin-top: 10%;
+        margin: 5% 0 0 10%;
+    }
+    .top-section h1 {
+        font-size: 50px;
+        color: rgb(146, 191, 233);
+    } 
+    .top-section p {
+        color: rgb(146, 191, 233);
+    }
+    .top-section span {
+        color: black;
+    }
+    .top-section img {
+        margin-left: 25%;
     }
 
     .main-container .first-container {
