@@ -1,0 +1,124 @@
+ .container-fluid {
+    padding: 10px 30px 1.5% 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid red;
+    background-color: #e6a9ae;
+}
+section { 
+    display: flex;
+    justify-content: center;
+}
+.hero-section {
+    display: flex;
+}
+.side-bar {
+    padding: 10px 5% 0 0;
+    background-color: #f6939b;
+    z-index: 10;
+    position: fixed;
+    left: 250px;
+    z-index:10;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    margin-top: 53px;
+    border-right: 1px solid red;
+}
+.side-container a {
+    display: block;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 3px 0px 13px ;
+}
+.side-container a:hover{
+    text-decoration: none;
+}
+.carousel-item img {
+    padding-left: 10%;
+}
+.carousel-control-prev {
+    margin-left: 10%;
+}
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10% 0 10% 10%;
+}
+.main-section .about-section {
+    padding-top: 15%;
+    background-color: #f4c5c9;
+}
+.about-content {
+    padding: 0 20px 10px 30px;
+}
+.about-content h1 {
+    color: red;
+    padding-left: 10%;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 800;
+}
+.about-content p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-section img {
+    border-radius: 10px;
+    padding-left: 75px;
+}
+.about-section img:hover {
+    box-shadow: 0 0 1rem rgb(211, 37, 37);
+}
+.main-section .contact-section {
+    padding-top: 10%;
+    background-color: #e6a9ae;
+}
+.contact-section {
+    padding: 0 20% 10% 25%;
+    color: red;
+}
+.contact-section h1 {
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+.footer-content {
+    padding: 2% 30px  5% 10%;
+    background-color: #e77f84;
+}
+.footer-content h1 {
+    padding-left: 10%;
+    color: red;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.footer-content a {
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.footer-content p {
+    color: red;
+    padding-top: 30px;
+    padding-left: 10%;
+}
+footer {
+   
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top: 306%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+  
+    z-index:10;
+  }

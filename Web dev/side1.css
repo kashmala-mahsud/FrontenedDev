@@ -1,0 +1,136 @@
+
+.container-fluid {
+    padding: 10px 30px 1.5% 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid red;
+    background-color: #e6a9ae;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+.hero-section {
+    display: flex;
+}
+.side-bar {
+    padding: 10px 5% 0 0;
+    background-color: #f6939b;
+    position: fixed;
+    left: 250px;
+    z-index:10;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    margin-top: 53px;
+    border-right: 1px solid red;
+}
+.side-container a {
+    display: block;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 3px 0px 13px ;
+}
+.side-container a:hover{
+    text-decoration: none;
+}
+.carousel-item img {
+    padding-left: 10%;
+}
+.carousel-control-prev {
+    margin-left: 10%;
+}
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f2c1c5;
+    padding-left: 15%;
+}
+.main-content .card {
+    margin: 5% 20px 30px 0;
+    background-color: rgb(247, 207, 214);
+}
+.footer-content {
+    padding: 2% 30px  5px 10%;
+    background-color: #e77f84;
+   
+   
+}
+.footer-content h1 {
+    padding-left: 10%;
+    color: red;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.footer-content a {
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.footer-content p {
+    color: red;
+    padding-top: 30px;
+    padding-left: 10%;
+}
+footer {
+   
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  top: 306%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+
+  z-index:10;
+}
+@media (max-width: 1900px) {
+    html{
+        font-size: 20px;
+    }
+    footer{
+        top: 210%;
+    }
+}
+@media (max-width: 1200px) {
+    html{
+        font-size: 20px;
+    }
+    .main-content .card{
+        margin-left: 30px;
+    }
+    footer{
+        top: 257%;
+    }
+}
+@media (max-width: 999px) {
+    html{
+        font-size: 20px;
+    }
+    .main-content .card{
+        margin-left: 50px;
+    }
+    footer{
+        top: 450%;
+    }
+}
+@media (max-width: 714px) {
+    html{
+        font-size: 20px;
+    }
+    .main-content .card img{
+        height: 300px;
+    }
+    .navbar {
+        z-index: 1000;
+    }
+    footer{
+        top: 309%;
+    }
+}
